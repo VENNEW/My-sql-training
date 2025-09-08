@@ -12,3 +12,7 @@ select count(*)
 From employee_demographics
 where age > 40
 ;
+select *
+From employee_demographics
+where first_name like '%a%' and last_name like '%e_'
+;
